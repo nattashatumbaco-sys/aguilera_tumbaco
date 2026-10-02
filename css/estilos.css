@@ -1,0 +1,95 @@
+.contactos{
+	border: 6px solid #AF7AC5;
+	width: 45%;
+	float: left;
+	border-radius: 24px;
+	background: #CEADDB;
+	margin: 20px;
+}
+
+
+.servicio{
+	border: 7px solid #AF7AC5;
+	width: 29%;
+	float: left;
+	border-radius: 16px;
+	background: #CEADDB;
+	margin: 10px;
+	height: 350px;
+}
+
+header{
+	background-color: #F6CFFF;
+	border-bottom: 3px solid #FFCCD3;
+	padding: 10px 20px;
+
+}
+ 
+.header-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1100px;
+	margin: 0 auto;
+
+}
+
+.logo{
+	font-size: 18px;
+	font-weight: bold;/*negritas*/
+	color: #2471A3;
+}
+
+nav ul{
+	list-style: none;/*quitar viñetas*/
+	margin: 0;
+	padding: 0;
+	display: flex;
+	gap: 20px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #9FA8DA;
+	font-weight: 600;
+	padding: 8px 12px;
+	border-radius: 4px;
+	transition: background-color 0.5s, color 0.3s;
+}
+
+nav ul li a:hover{
+	background-color: #D1C4E9;
+	color: #512DA8;
+
+}
+
+
+footer {
+background-color: #1e293b; /* Azul oscuro */
+color: #cbd5e1;
+padding: 20px;
+font-size: 14px;
+}
+
+.footer-container {
+max-width: 1000px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between; /* Texto a la izquierda, contacto a la derecha */
+align-items: center;
+flex-wrap: wrap;
+gap: 15px;
+}
+
+.footer-container p {
+margin: 0;
+}
+
+.footer-container a {
+color: #38bdf8; /* Celeste para resaltar los enlaces directos */
+text-decoration: none;
+}
+
+.footer-container a:hover {
+text-decoration: underline;
+}
